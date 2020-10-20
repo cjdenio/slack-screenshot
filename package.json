@@ -1,0 +1,9 @@
+{
+  "name": "slack-screenshot",
+  "version": "1.0.0",
+  "description": "Quickly generate screenshots for your Slack app's Block Kit views",
+  "main": "index.js",
+  "repository": "https://github.com/cjdenio/slack-screenshot.git",
+  "author": "Caleb Denio <cjdenio44@gmail.com>",
+  "license": "MIT"
+}
