@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(26, 29, 33);
+}
+
+.App {
+  font-family: "Lato";
+  color: rgb(209, 210, 211);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 8px;
+  border-bottom: 1px solid rgba(232, 232, 232, 0.13);
+  flex-shrink: 0;
+  padding-left: 20px;
+}
+
+.header-info {
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.app-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 4px;
+}
+
+.title-and-star {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  min-width: 20px;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 15px;
+  line-height: 1.46668;
+  flex-shrink: 1;
+  min-width: 0;
+  font-weight: 900;
+}
+
+.title-span {
+  margin: 8px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spacer {
+  flex: 1;
+}
